@@ -1,0 +1,177 @@
+
+
+
+
+console.log("Hello world!");
+
+console.log("Bonsoir tous le Monde!");
+
+console.log("Hej världen!");
+
+***
+
+let x
+
+console.log("the value of x will be: whatever");
+
+console.log(x)
+
+x = 1;
+
+console.log("the value of x will be: 1");
+
+console.log(x)
+
+
+
+let y = "Bonsoir";
+
+console.log("the value of the string is : Bonsoir");
+
+console.log(y);
+
+ y ="Aurevoir";
+
+console.log("the value of the string now it will be : Aurevoir");
+
+console.log(y);
+
+*****
+
+let z = 7.25 
+
+console.log(z);
+
+let a = 7.25 	
+
+console.log(Math.round(a));
+
+
+
+--Array:
+
+let array = []
+
+console.log(" the value of the array is emty");
+
+console.log(array);
+
+***
+
+let animales = ["Dogs" , "Cats" ,"Monkies"]
+
+console.log(animales);
+
+
+
+let animales = [ "Dogs" , "Cats" ,"Monkies" ];
+
+animales.push("baby pig");
+
+console.log(animales);
+
+
+
+*****
+
+more string :
+
+let myString = "this is a test"
+
+console.log(myString)
+
+myString.length
+
+console.log(myString.length);
+
+****
+
+
+
+let a = 3
+
+let  b = 4
+
+let c = "cava"
+
+let d = "salut"
+
+console.log("The value of my variable a is: " + a);
+
+console.log("The value of my variable b is: " + b);
+
+console.log("The value of my variable c is: " + c);
+
+console.log("The value of my variable d is: " + d);
+
+
+
+if (typeof a === typeof b) {
+
+    console.log(" variables a and b are from the same type")
+
+}
+
+else{
+
+    console.log(" not the sametype")
+
+}
+
+
+
+if (typeof c === typeof d) {
+
+    console.log(" variables c and  d are from the same type")
+
+}
+
+else{
+
+    console.log(" not the sametype")
+
+}
+
+****
+
+
+
+let x =7
+
+ x = x % 3
+
+console.log("the new value of x will be : " + x)
+
+console.log("the operator % divise 7 to 3  and give the rest after the division")
+
+console.log("The modulus operator (%) returns the division remainder")
+
+
+
+*****
+
+let car = [ "Fiat", 277, true]
+
+  
+
+console.log(car)
+
+******
+
+let a = 3/0
+
+let b = 10/0
+
+let comp = a === b 
+
+if (comp=true){
+
+    console.log("infinity can be compared")
+
+}
+
+else {
+
+    console("infinity can not be compared")
+
+}
