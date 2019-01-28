@@ -33,17 +33,14 @@ console.log(y);
 
 *****
 
-let z = 7.25 
+let x = 7.25;
 
-console.log(z);
-
-let a = 7.25 	
-
-console.log(Math.round(a));
+console.log(x)
+let a = Math.round(x);
+console.log(a);
 
 
-
---Array:
+--Array------
 
 let array = []
 
