@@ -55,17 +55,14 @@ console.log(arrays)
 
 ***
 
-let animales = ["Dogs" , "Cats" ,"Monkies"]
-
-console.log(animales);
-
+let MyfavouriteAnimales = ["cats","dogs","monkies","girafes","elephants"];
+console.log(MyfavouriteAnimales);
 
 
-let animales = [ "Dogs" , "Cats" ,"Monkies" ];
+MyfavouriteAnimales.push("babybig")
 
-animales.push("baby pig");
+console.log(MyfavouriteAnimales);
 
-console.log(animales);
 
 
 
