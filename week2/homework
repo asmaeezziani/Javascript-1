@@ -48,11 +48,10 @@ console.log("the highest value : " + b );
 
 --Array------
 
-let array = []
+let arrays = [];
 
-console.log(" the value of the array is emty");
-
-console.log(array);
+console.log( "the value of the array is  empty : [] ");
+console.log(arrays)
 
 ***
 
