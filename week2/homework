@@ -76,57 +76,33 @@ let LengthOfString = myString.length;
 console.log( "the length of myString is : " + LengthOfString);
 
 
-****
-
-
-
-let a = 3
-
-let  b = 4
-
-let c = "cava"
-
-let d = "salut"
-
+**********
+let a = 10 ;
+let b = 20 ;
+let myvari = true;
+let f = "red";
 console.log("The value of my variable a is: " + a);
-
 console.log("The value of my variable b is: " + b);
+console.log("The value of my variable c is: " + myvari);
+console.log("The value of my variable f is: " + f);
 
-console.log("The value of my variable c is: " + c);
-
-console.log("The value of my variable d is: " + d);
-
-
-
-if (typeof a === typeof b) {
-
-    console.log(" variables a and b are from the same type")
+function compare(typ1,typ2){
+    
+    if (typeof typ1 === typeof typ2) {
+    console.log(" they are the sametype");
 
 }
-
-else{
-
-    console.log(" not the sametype")
+else {
+    console.log("they are not the same type");
 
 }
-
-
-
-if (typeof c === typeof d) {
-
-    console.log(" variables c and  d are from the same type")
-
 }
+compare(a,b);
+compare(myvari,f);
+compare(a,f);
+compare(myvari,b);
 
-else{
-
-    console.log(" not the sametype")
-
-}
-
-****
-
-
+***********
 
 let x =7
 
