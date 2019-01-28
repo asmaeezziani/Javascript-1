@@ -68,15 +68,13 @@ console.log(MyfavouriteAnimales);
 
 *****
 
-more string :
+MORE STRINGS :
 
 let myString = "this is a test"
+console.log(myString);
+let LengthOfString = myString.length;
+console.log( "the length of myString is : " + LengthOfString);
 
-console.log(myString)
-
-myString.length
-
-console.log(myString.length);
 
 ****
 
