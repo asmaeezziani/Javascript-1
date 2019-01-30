@@ -1,1 +1,182 @@
-empty
+
+Home work week3:
+1. Strings!
+let myString = "hello,this,is,a,difficult,to,read,sentence";
+
+console.log(myString);
+
+console.log("the length of myString is : " + '' + myString.length);
+mynewString =myString.replace(/,/gi," ");
+console.log(mynewString)
+**************
+2. Arrays!
+
+let FavoriteAnimals = ["blowfish", "capricorn", "giraffe"];
+FavoriteAnimals.push("turtle");
+console.log(FavoriteAnimals);
+2.Arrays!
+let favoriteAnimals = ["blowfish", "capricorn", "giraffe"];
+favoriteAnimals.push("turtle");
+console.log(favoriteAnimals);
+
+
+favoriteAnimals.splice(1,0 , "meerkat"); 
+console.log(favoriteAnimals)
+
+console.log("the new value of the array is in (1) position")
+console.log("The array has a length of:",favoriteAnimals.length);
+favoriteAnimals.pop();
+console.log(favoriteAnimals)
+
+****More JavaScript 🎉****
+1.
+function sum(a,b,c){
+  return a+b+c;  
+}
+console.log(sum(2,3,1));   
+
+
+
+console.log("The item you are looking for is at index : "  + favoriteAnimals.indexOf("meerkat"))
+2.
+function colorCar (color){
+
+
+console.log("A " + color + " car ")
+
+}
+colorCar("red");
+
+3.
+let perso ={
+
+    name :"Lina",
+    age : 20 ,
+    sex : "female",
+   nationality : "Moroccan"
+};
+
+function myfunction(myobject) {
+
+     console.log(myobject);
+}
+
+myfunction(perso);
+4.
+function vehicleType (color,code){
+    if (code === 1  ){
+        console.log(" A " + color + " car")
+
+    }
+    else if (code === 2) {
+        console.log(" A " + color + " motorbike")
+
+    }
+}
+vehicleType("blue",2);
+vehicleType("black" ,1);
+5.    console.log((3 === 3));
+6.function vehicule(color,code,age){
+
+    if (code ===1){
+if (age => 5)
+console.log("A" ,color ," used" , " car")
+
+    }
+else {
+    console.log("A" ,color , "new", "car")
+}
+}
+vehicule("blue",1,7)
+vehicule("blue",2,1)
+
+7.
+let ListOfVehic = ["motorbike", "caravan", "bike","train"]
+8.
+GetThirdElem =ListOfVehic[2];
+console.log("The third element from the list is :",GetThirdElem);
+******
+9.
+
+let vehicles = ["motorbike", "caravan", "bike","train"]
+
+function ListOfVehicule(color,age,code){
+switch(age){
+case 1:
+case 2:
+case 3:
+console.log("A" ,color ,"new",vehicles[code])
+break;
+case 4:
+case 5:
+case 6:
+console.log("A" ,color ,"used",vehicles[code])
+break;
+default:
+console.log("A",color,"very old",vehicles[code])
+}
+
+}
+ListOfVehicule("green", 3, 2)
+******
+10. let vehicles = ["motorbike", "caravan", "bike","train"]
+
+let allVehicles = "";
+
+for (let i = 0; i < vehicles.length; i++) {
+
+    if (i === vehicles.length - 1) {
+
+        allVehicles += "and " + vehicles[3] + "s. ";
+
+        break
+
+    };
+
+    allVehicles += vehicles[i] + "s, ";
+
+};
+
+console.log("Amazing Joe\'s Garage,we service " + allVehicles);
+
+11.
+let vehicles = ["motorbike", "caravan", "bike","train"]
+vehicles.push("van")
+let allVehicles = "";
+
+for (let i = 0; i < vehicles.length; i++) {
+
+    if (i === vehicles.length - 1) {
+
+        allVehicles += "and " + vehicles[i] + "s.";
+
+        break
+
+    };
+
+    allVehicles += vehicles[i] + "s, ";
+
+};
+
+console.log("Amazing Joe\'s Garage,we service " + allVehicles);
+
+
+12. let MyObject ={}
+13.  let teacher = {
+
+    names: "Stephen, Robert & Baraa"
+}
+14.
+teacher.modules="javascript, Git, HTML and CSS";
+
+console.log(teacher);
+ 15. let x = [1, 2, 3];
+let y = [1, 2, 3];
+let z = y;
+console.log(x==y)// Returns false
+console.log(x===y)// Returns false
+console.log(z==y)// Returns true
+console.log(z==x)// Returns false
+
+
+
